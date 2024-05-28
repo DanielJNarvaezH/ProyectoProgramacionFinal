@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.proyectofinal.controller.dueñoController">
+   <children>
+      <AnchorPane layoutX="66.0" layoutY="86.0" prefHeight="213.0" prefWidth="141.0" style="-fx-border-color: purple;" />
+      <AnchorPane layoutX="230.0" layoutY="86.0" prefHeight="213.0" prefWidth="141.0" style="-fx-border-color: purple;" />
+      <AnchorPane layoutX="401.0" layoutY="86.0" prefHeight="213.0" prefWidth="141.0" style="-fx-border-color: purple;" />
+      <Label layoutX="66.0" layoutY="33.0" text="Inventario camisas">
+         <font>
+            <Font name="BrandingPro-Bold" size="30.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9473684430122375" green="0.6228070259094238" blue="0.13596491515636444" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6820175647735596" green="0.07309941202402115" blue="0.7894737124443054" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="solicitar1" layoutX="107.0" layoutY="305.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Solicitar" textFill="WHITE" />
+      <Button fx:id="solicitar2" layoutX="271.0" layoutY="305.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Solicitar" textFill="WHITE" />
+      <Button fx:id="solicitar3" layoutX="442.0" layoutY="305.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Solicitar" textFill="WHITE" />
+      <Button fx:id="devolver" layoutX="105.0" layoutY="345.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Devolver" textFill="WHITE" />
+      <Button fx:id="devolver1" layoutX="269.0" layoutY="345.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Devolver" textFill="WHITE" />
+      <Button fx:id="devolver2" layoutX="440.0" layoutY="345.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Devolver" textFill="WHITE" />
+   </children>
+</AnchorPane>

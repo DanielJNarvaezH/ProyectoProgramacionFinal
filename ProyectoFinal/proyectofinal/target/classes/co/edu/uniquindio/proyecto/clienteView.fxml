@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.proyectofinal.controller.clienteController">
+   <children>
+      <Button fx:id="btnComprar0" layoutX="37.0" layoutY="269.0" mnemonicParsing="false" onAction="#comprarProducto" style="-fx-background-color: #332F2C;" text="Comprar" textFill="WHITE" />
+      <Label layoutX="14.0" layoutY="8.0" text="Tienda" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="8.0">
+         <font>
+            <Font name="BrandingPro-Bold" size="30.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9473684430122375" green="0.6228070259094238" blue="0.13596491515636444" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6820175647735596" green="0.07309941202402115" blue="0.7894737124443054" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="home" layoutX="522.0" layoutY="15.0" prefHeight="26.0" prefWidth="46.0" text="YZ!" textFill="#c9c9c9" AnchorPane.rightAnchor="31.600000000000023" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font name="Berlin Sans FB" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnComprar1" layoutX="188.0" layoutY="269.0" mnemonicParsing="false" onAction="#comprarProducto" style="-fx-background-color: #332F2C;" text="Comprar" textFill="WHITE" />
+      <Button fx:id="btnComprar2" layoutX="346.0" layoutY="269.0" mnemonicParsing="false" onAction="#comprarProducto" style="-fx-background-color: #332F2C;" text="Comprar" textFill="WHITE" />
+      <Button fx:id="btnComprar3" layoutX="491.0" layoutY="269.0" mnemonicParsing="false" onAction="#comprarProducto" style="-fx-background-color: #332F2C;" text="Comprar" textFill="WHITE" />
+      <AnchorPane fx:id="camisa11" layoutX="14.0" layoutY="76.0" prefHeight="175.0" prefWidth="109.0" style="-fx-border-color: purple;">
+         <children>
+            <ImageView fitHeight="175.0" fitWidth="109.0" layoutX="1.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Camisa1.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane fx:id="camisa21" layoutX="165.0" layoutY="76.0" prefHeight="175.0" prefWidth="109.0" style="-fx-border-color: purple;">
+         <children>
+            <ImageView fitHeight="175.0" fitWidth="109.0" layoutX="1.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Camisa2.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane fx:id="camisa31" layoutX="323.0" layoutY="76.0" prefHeight="175.0" prefWidth="109.0" style="-fx-border-color: purple;">
+         <children>
+            <ImageView fitHeight="175.0" fitWidth="112.0" layoutX="1.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Hoodie1.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane fx:id="camisa41" layoutX="468.0" layoutY="76.0" prefHeight="175.0" prefWidth="109.0" style="-fx-border-color: purple;">
+         <children>
+            <ImageView fitHeight="175.0" fitWidth="112.0" layoutX="1.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Hoodie2.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
