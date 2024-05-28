@@ -42,7 +42,6 @@ public abstract class Usuario{
         if (existePedido){
             throw new RuntimeException("El usuario ya esta registrado");
         }
-
     }
 
     public Optional<Pedido> buscarPedidoPorId (String id){

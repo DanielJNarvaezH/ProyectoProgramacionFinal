@@ -23,11 +23,15 @@ public class Main {
         Usuario cliente4 = new Cliente("Juan Pablo López", "1052733");
         Usuario dueño1 = new Dueño("Raúl Ferchonandez", "1234567890");
         Registro registroUsuarios = new Registro();
-        registroUsuarios.registrarUsuario(cliente1);
+       /* registroUsuarios.registrarUsuario(cliente1);
         registroUsuarios.registrarUsuario(cliente2);
         registroUsuarios.registrarUsuario(cliente3);
         registroUsuarios.registrarUsuario(cliente4);
-        registroUsuarios.registrarUsuario(dueño1);
+        registroUsuarios.registrarUsuario(dueño1);*/
+        
+        //Proxy
+        RealizacionRegistro registroProxy = new RegistroProxy(new Registro());
+        registroProxy.registrarUsuario(dueño1);
 
         //Creacion utilizando Builder y registro de productos
         Producto camisa1 = new Camiseta.Builder().setPrecio(2345).setTalla("M").build();

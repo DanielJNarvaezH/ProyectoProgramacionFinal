@@ -24,7 +24,6 @@ public class Pedido{
         listaProductos.add(producto);
     }
 
-
     public void eliminarProducto(Producto producto){
         listaProductos.remove(producto);
     }

@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.function.Predicate;
 
 
-public class Registro {
+public class Registro implements RealizacionRegistro {
     private List<Usuario> listaUsuarios;
 
     public Registro(){
@@ -33,5 +33,4 @@ public class Registro {
         Predicate<Usuario> condicion = usuario ->usuario.getCodigo().equals(codigo);
         return listaUsuarios.stream().filter(condicion).findAny();
     }
-    
 }
