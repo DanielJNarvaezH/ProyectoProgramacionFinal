@@ -27,11 +27,6 @@ public class Hoodie extends Producto {
     }
 
     @Override
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    @Override
     public String toString() {
         return "Hoodie";
     }

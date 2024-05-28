@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
 
-
 public class Registro implements RealizacionRegistro {
     private List<Usuario> listaUsuarios;
 

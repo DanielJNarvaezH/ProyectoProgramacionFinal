@@ -2,7 +2,7 @@ package co.edu.uniquindio.proyecto.Model;
 
 public class RegistroProxy implements RealizacionRegistro {
     private boolean usuarioAutorizado;
-    private RealizacionRegistro registroReal; 
+    private RealizacionRegistro registroReal;
 
     public RegistroProxy(RealizacionRegistro registroReal){
         this.registroReal = registroReal;

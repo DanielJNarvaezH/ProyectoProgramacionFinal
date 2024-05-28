@@ -3,7 +3,6 @@ package co.edu.uniquindio.proyecto.Model;
 public abstract class Producto implements Cloneable{
     public String talla;
     public double precio;
-    public String descripcion;
     
     public String getTalla(){
         return talla;
@@ -22,13 +21,6 @@ public abstract class Producto implements Cloneable{
         this.precio = precio;
     }
 
-    public void setDescripcion (String descripcion){
-        this.descripcion = descripcion;
-    }
-
-    public String getDescripcion(){
-        return descripcion;
-    }
 
     @Override
     public Producto clone() {
